@@ -1,9 +1,11 @@
-import React from 'react'
-function propsComponent(props){
+import "../../css/PropsComponent.css"
+import "../../css/NavBar.css"
+
+function PropsComponent(props){
     return(
-        <div>
+        <div style={{"backgroundColor":"yellow",color:"white"}}>
             Hello,{props.name} This is {props.course} class
         </div>
     )
 }
-export default propsComponent
+export default PropsComponent
