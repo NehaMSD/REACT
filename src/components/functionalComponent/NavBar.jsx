@@ -8,7 +8,10 @@ const NavBar=()=>{
             <li><Link to="/about">About</Link></li>
             <li><Link to="/experience">Experience</Link></li>
             <li><Link to="/login">Login</Link></li>
+            <li><Link to="/reference">Reference</Link></li>
+            <li><Link to="/memo">Memo</Link></li>
+            <li><Link to="/callback">Callback</Link></li>
         </ol>
     )
 }
-export default NavBar
+export default NavBar;

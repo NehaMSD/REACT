@@ -1,8 +1,8 @@
 const Experience=()=>{
     return(
         <div>
-            <h1>This tag is ment for ur experience details</h1>
+            <h1>This tag is meant for ur experience details</h1>
         </div>
     )
 }
-export default Experience
+export default Experience;
