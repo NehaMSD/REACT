@@ -11,6 +11,7 @@ const NavBar=()=>{
             <li><Link to="/reference">Reference</Link></li>
             <li><Link to="/memo">Memo</Link></li>
             <li><Link to="/callback">Callback</Link></li>
+            <li><Link to="/signup">Signup</Link></li>
         </ol>
     )
 }

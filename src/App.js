@@ -12,6 +12,7 @@ import Home from './components/functionalComponent/Home';
 import Reference from './components/functionalComponent/Reference';
 import Memo from './components/functionalComponent/Memo';
 import Callback from './components/functionalComponent/Callback';
+import Signup from './components/functionalComponent/Signup';
 
 function App() {
   return (
@@ -26,13 +27,14 @@ function App() {
         <Route path="/Reference" element={<Reference/>}></Route>
         <Route path="/Memo" element={<Memo/>}></Route>
         <Route path="/Callback" element={<Callback/>}></Route>
+        <Route path="/Signup" element={<Signup/>}></Route>
       </Routes>  
       </BrowserRouter>
     
 
-      {/*<PropsComponent name="KEC" course="MERN" /> 
+      {/*<PropsComponent name="KEC" course="MERN" /> */}
       <header className="App-header">
-      <StateComponent></StateComponent> 
+      {/*<StateComponent/> */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -45,12 +47,12 @@ function App() {
         >
           Learn React
         </a>
-        </header> */}
+        </header>
         <footer>
-        <p>&copy; 2024 rights</p>
-        <p>Email</p>
+        <p>&copy; 2024 All CopyRights Reserved</p>
+        <a href="https://github.com/NehaMSD/" target="_blank" rel="oopener noreferrer">Github</a>
         </footer>
-    </div>
+        </div>
   );
 }
 
